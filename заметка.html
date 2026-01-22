@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СИЛА >>> ВЕТРА | Экспедиция по Ладоге</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 1.5em;
+      background: #f8f9fa;
+      color: #222;
+    }
+    h1, h2, h3 { color: #1a3c5e; }
+    h1 { text-align: center; border-bottom: 3px solid #1a3c5e; padding-bottom: 0.5em; }
+    section { margin: 2em 0; padding: 1.2em; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    ol, ul { padding-left: 1.8em; }
+    .checklist label {
+      display: block;
+      margin: 0.8em 0;
+      cursor: pointer;
+      font-size: 1.05em;
+    }
+    input[type="checkbox"] {
+      transform: scale(1.5);
+      margin-right: 0.8em;
+      accent-color: #1a3c5e;
+    }
+    .checked { text-decoration: line-through; color: #888; }
+    .emoji { font-size: 1.4em; margin-right: 0.3em; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .note { font-style: italic; color: #555; }
+    @media (max-width: 500px) {
+      body { padding: 1em; }
+      section { padding: 1em; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>СИЛА >>> ВЕТРА<br>Экспедиция по Ладоге</h1>
+
+<section>
+  <h2>① Время старта и финиша</h2>
+  <p>Наша экспедиция стартует в старинном городе <strong>Сортавала</strong> каждый понедельник в 09:00 в кафе «Лось и Тролль» (ул. Ленина, 1А). Финишируем в четверг вечером.</p>
+  <p>Если вы хотите провести последний вечер с командой, сходить в баню и немного отдохнуть, то советуем брать билеты обратно не раньше 19:30 четверга.</p>
+</section>
+
+<section>
+  <h2>② Как добраться</h2>
+  <p>Сортавала — популярное туристическое направление, поэтому рекомендуем бронировать билеты заранее.</p>
+  <p>Планируйте приключение так, чтобы быть в Сортавале в понедельник до 9 утра, а уезжать в четверг после 19:30.</p>
+  
+  <h3>→ На поезде дальнего следования</h3>
+  <p>Через Сортавалу проходят поезда Москва — Мурманск и Москва — Петрозаводск с короткой остановкой в Санкт-Петербурге. Хороший способ выспаться в дороге.</p>
+  <p><a href="#">Посмотреть билеты</a></p>
+
+  <h3>→ На автомобиле</h3>
+  <p>Живописная дорога среди лесов и скал.</p>
+  <p><a href="#">Проложить маршрут</a></p>
+
+  <h3>→ От ж/д станции до кафе</h3>
+  <p>Яндекс Такси не работает, но есть местные такси (номера в чате). Или дойти пешком — прекрасная прогулка.</p>
+  <p><a href="#">Посмотреть маршрут</a></p>
+</section>
+
+<section>
+  <h2>③ Разрешение в заповедник</h2>
+  <p>Приключение проходит по территории национального парка «Ладожские шхеры». Оформите разрешение заранее и сохраните QR-код.</p>
+  <p><a href="#">Перейти к оформлению</a></p>
+</section>
+
+<section>
+  <h2>④ Погода</h2>
+  <p>Погода переменчива и может быть суровой. В чате — список одежды и экипировки.</p>
+  <p><a href="#">Проверить прогноз</a></p>
+</section>
+
+<section>
+  <h2>⑤ Питание</h2>
+  <p>Готовим все вместе на костре. В первый день распределим дежурства. У каждого экипажа — один завтрак и ужин.</p>
+  <p>Пройдите опрос в чате по аллергиям и ограничениям.</p>
+</section>
+
+<section>
+  <h2>⑥ Связь</h2>
+  <p>На стоянках связь стабильная. В переходах на открытой воде — может быть неустойчивой.</p>
+  <p><a href="#">Посмотреть карту покрытия</a></p>
+</section>
+
+<section>
+  <h2>⑦ Чек-лист: что взять с собой</h2>
+  <p>Отмечайте галочками — прогресс сохранится даже после закрытия страницы (в вашем браузере).</p>
+
+  <h3>→ Личное снаряжение</h3>
+  <p class="note">Если нет первых 4 пунктов — мы предоставляем базовое.</p>
+  <div class="checklist">
+    <label><input type="checkbox" id="item1"> <span class="emoji">⛺</span> Палатка</label>
+    <label><input type="checkbox" id="item2"> <span class="emoji">🛌</span> Коврик</label>
+    <label><input type="checkbox" id="item3"> <span class="emoji">🛌</span> Спальник (идеально на 0–5 °C)</label>
+    <label><input type="checkbox" id="item4"> <span class="emoji">🍽️</span> Миска, ложка, вилка, нож (если хочется своё)</label>
+    <label><input type="checkbox" id="item5"> <span class="emoji">🍼</span> Термос или бутылочка для воды</label>
+    <label><input type="checkbox" id="item6"> Личные гигиенические принадлежности</label>
+    <label><input type="checkbox" id="item7"> <span class="emoji">☀️</span> Средство от загара</label>
+    <label><input type="checkbox" id="item8"> <span class="emoji">🦟</span> Средство от комаров + мази от укусов</label>
+    <label><input type="checkbox" id="item9"> <span class="emoji">🔦</span> Налобный фонарик + батарейки</label>
+    <label><input type="checkbox" id="item10"> <span class="emoji">🌧️</span> Дождевик</label>
+    <label><input type="checkbox" id="item11"> Влажные салфетки</label>
+    <label><input type="checkbox" id="item12"> Личная аптечка</label>
+    <label><input type="checkbox" id="item13"> Подушка надувная</label>
+    <label><input type="checkbox" id="item14"> Маска для сна</label>
+    <label><input type="checkbox" id="item15"> Зарядка + пауэрбанк</label>
+    <label><input type="checkbox" id="item16"> Портативная колонка (по желанию)</label>
+  </div>
+
+  <h3>→ Документы</h3>
+  <div class="checklist">
+    <label><input type="checkbox" id="doc1"> Туристическая страховка (яхтинг/парусный спорт)</label>
+    <label><input type="checkbox" id="doc2"> Паспорт</label>
+    <label><input type="checkbox" id="doc3"> Разрешение в заповедник</label>
+  </div>
+
+  <h3>→ Одежда</h3>
+  <div class="checklist">
+    <label><input type="checkbox" id="cloth1"> Трусы, носки обычные + теплые (на все дни без стирки)</label>
+    <label><input type="checkbox" id="cloth2"> Футболки, лонгсливы (на все дни)</label>
+    <label><input type="checkbox" id="cloth3"> Термобелье</label>
+    <label><input type="checkbox" id="cloth4"> Купальник / плавки / сланцы</label>
+    <label><input type="checkbox" id="cloth5"> Теплый комплект для вечера</label>
+    <label><input type="checkbox" id="cloth6"> Мембранная куртка (ветро/водоотводящая)</label>
+    <label><input type="checkbox" id="cloth7"> Теплая флиска или тонкая пуховка</label>
+    <label><input type="checkbox" id="cloth8"> Легкие и теплые штаны + непромокаемый слой</label>
+    <label><input type="checkbox" id="cloth9"> Обувь (кроссовки / треккинговые ботинки)</label>
+    <label><input type="checkbox" id="cloth10"> Перчатки для работы на лодке</label>
+    <label><input type="checkbox" id="cloth11"> Обычные перчатки</label>
+    <label><input type="checkbox" id="cloth12"> Шапка</label>
+    <label><input type="checkbox" id="cloth13"> Кепка</label>
+    <label><input type="checkbox" id="cloth14"> Одежда в поезд/город</label>
+    <label><input type="checkbox" id="cloth15"> Солнцезащитные очки + шнурок</label>
+  </div>
+</section>
+
+<section>
+  <h2>⑧ Путеводитель по Сортавале</h2>
+  <p>Уникальный город в стиле северного модерна, сосновый бор, набережная, финский рыбный суп и почта с ретро-интерьерами.</p>
+  <p><a href="#">Почитать гид</a></p>
+  
+  <h3>→ Местная кухня</h3>
+  <p>Копченая/соленая рыба, колбаски из дичи, уха на сливках, карельские калитки.</p>
+  <p><a href="#">Заглянуть в Jarvikala</a></p>
+
+  <h3>→ Где остановиться</h3>
+  <p>Рекомендуем LBerry Karelia. Скидка 10% по промокоду «Сила ветра на Ладоге».</p>
+  <p>Тел: +7 921 522-55-55</p>
+</section>
+
+<section>
+  <h2>⑨ Полезно знать перед приключением</h2>
+  <p>Ваша безопасность — наш главный приоритет. Будьте внимательны к просьбам капитана.</p>
+  <p>Относитесь с пониманием к команде — здоровая атмосфера = классное путешествие!</p>
+</section>
+
+<script>
+// Сохранение и загрузка чекбоксов
+document.addEventListener('DOMContentLoaded', () => {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  
+  checkboxes.forEach(cb => {
+    // Загрузка сохранённого состояния
+    const saved = localStorage.getItem(cb.id);
+    if (saved === 'true') {
+      cb.checked = true;
+      cb.parentElement.querySelector('span')?.classList.add('checked'); // если нужно зачеркнуть текст
+    }
+    
+    // Сохранение при клике
+    cb.addEventListener('change', () => {
+      localStorage.setItem(cb.id, cb.checked);
+      // Опционально: зачёркивание текста при отметке
+      const label = cb.closest('label');
+      if (cb.checked) {
+        label.classList.add('checked');
+      } else {
+        label.classList.remove('checked');
+      }
+    });
+  });
+});
+</script>
+
+</body>
+</html>
